@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <div class="dashboard">
+        <div class="header">
+            <div class="sensor" id="temperatureValue">
+                <h2>Temperature: </h2>
+            </div>
+    
+            <div class="sensor" id="humidityValue">
+                <h2>Humidity: </h2>
+            </div>
+    
+            <div class="sensor" id="lightValue">
+                <h2>Light: </h2>
+            </div>            
+        </div>
+<a href="admin.html">dis</a>
+        
+        <div class="chart-container">
+            <div class="chart">
+                <div class="titleChart">Chartaa</div>
+                <canvas id="chartInformation"></canvas>
+            </div>
+            <div class="OnOff">
+                <div class="light">
+                    <img id="lightimg" src="img/lightoff.jpg" style="width:100px">
+                    <br>
+                    <button onclick="document.getElementById('lightimg').src='img/lighton.png'">Turn on the light</button>
+                  <br>
+                    <button onclick="document.getElementById('lightimg').src='img/lightoff.png'">Turn off the light</button>
+                </div>
+                
+                <div class="fan">
+                    <img id="fanimg" src="img/fanoff.gif" style="width:100px">
+                    <br>
+                    <button onclick="document.getElementById('fanimg').src='img/fanon.gif'">Turn on the fan</button>
+                    <br>
+                    <button onclick="document.getElementById('fanimg').src='img/fanoff.gif'">Turn off the fan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
