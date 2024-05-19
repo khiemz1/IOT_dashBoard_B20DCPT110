@@ -72,3 +72,10 @@ cd Backend
 - Để xem api truy cập:
 ```http://localhost:4000/api-docs/#/```
 ![image](https://github.com/khiemz1/IOT_dashBoard_B20DCPT110/assets/160468928/f677204a-2c89-4a0f-bb6a-756086694612)
+- giao diện:
+![image](https://github.com/khiemz1/IOT_dashBoard_B20DCPT110/assets/160468928/b780420b-112a-4fd9-93b4-1ad681859e0c)
+![image](https://github.com/khiemz1/IOT_dashBoard_B20DCPT110/assets/160468928/ccfa19b5-2c6d-4e42-86e9-17a2cb4f2722)
+![image](https://github.com/khiemz1/IOT_dashBoard_B20DCPT110/assets/160468928/a4d8622c-e25d-43ce-bf4e-fcbb18a87ec2)
+![image](https://github.com/khiemz1/IOT_dashBoard_B20DCPT110/assets/160468928/bafd63e3-49f8-42f0-8e43-068e4d323069)
+
+
